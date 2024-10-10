@@ -13,7 +13,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 RUN apt-get update \
-    && apt-get install -y git libicu-dev nodejs nginx libpng-dev libzip-dev \ 
+    && apt-get install -y git libicu-dev nodejs nginx libpng-dev libzip-dev \
     libwebp-dev unzip zip libxml2-dev libjpeg62-turbo-dev zlib1g-dev libfreetype6 libfreetype6-dev \
     && rm -rf /var/lib/apt/lists/*
 
